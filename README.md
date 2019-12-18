@@ -2,7 +2,7 @@
 web 공부 및 정리♬
 
 # 목차
-[1.html](https://github.com/yhujinhui/webstudy/blob/master/1.html)
+[태그](# 태그)
 
 # 태그
 >web을 만들 때 가장 중요한 문법, 태그(tag)입니다.
