@@ -7,9 +7,9 @@ web 공부 및 정리♬
 * [2. 밑줄 긋기](#밑줄-긋기)
 * [3. 제목 작성하기](#제목-작성하기)
 * [4. 줄바꿈 하기](#줄바꿈-하기)
-[2. 추천 사이트]
-* [1. 웹페이지 통계 사이트](#http://advancedwebranking.com/)
-* [2. 오픈튜토리얼스 사이트](#http://opentutorials.org)
+# [2. 추천 사이트]
+* [1. 웹페이지 통계 사이트](http://advancedwebranking.com/)
+* [2. 오픈튜토리얼스 사이트](http://opentutorials.org)
 
 # 태그
 >web을 만들 때 가장 중요한 문법, 태그(tag)입니다.
