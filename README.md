@@ -20,7 +20,7 @@ web 공부 및 정리♬
 * [3. 깃허브 사이트](https://github.com/)
 * [4. 디비컷 사이트](https://www.dbcut.com/bbs/index.php)
 * [5. siteinspire 사이트](https://www.siteinspire.com/)
-* [6. CSS Design Awards 사이트](https://www.cssdesignawards.com/
+* [6. CSS Design Awards 사이트](https://www.cssdesignawards.com/)
 
 # 태그
 >web을 만들 때 가장 중요한 문법, 태그(tag)입니다.
