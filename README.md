@@ -18,9 +18,10 @@ web 공부 및 정리♬
 * [1. 웹페이지 통계 사이트](http://advancedwebranking.com/)
 * [2. 오픈튜토리얼스 사이트](http://opentutorials.org)
 * [3. 깃허브 사이트](https://github.com/)
-* [4. 디비컷 사이트(웹 디자인)](https://www.dbcut.com/bbs/index.php)
-* [5. siteinspire 사이트(웹 디자인)](https://www.siteinspire.com/)
-* [6. CSS Design Awards 사이트(웹 디자인)](https://www.cssdesignawards.com/)
+* [4. 디비컷 사이트](https://www.dbcut.com/bbs/index.php)
+* [5. siteinspire 사이트](https://www.siteinspire.com/)
+* [6. CSS Design Awards 사이트](https://www.cssdesignawards.com/)
+* [7. W3스쿨스 사이트](https://www.w3schools.com/)
 
 # 태그
 >web을 만들 때 가장 중요한 문법, 태그(tag)입니다.
