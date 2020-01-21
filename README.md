@@ -16,7 +16,7 @@ web 공부 및 정리✌
  
 # 추천 사이트
 * [1. 웹페이지 통계 사이트](http://advancedwebranking.com/)
-* [2. 오픈튜토리얼스 사이트](http://opentutorials.org)
+* [2. 오픈튜토리얼스 사이트](http://opentutorials.org) 
 * [3. 깃허브 사이트](https://github.com/)
 * [4. 디비컷 사이트](https://www.dbcut.com/bbs/index.php)
 * [5. siteinspire 사이트](https://www.siteinspire.com/)
