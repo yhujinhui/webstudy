@@ -23,7 +23,7 @@ web 공부 및 정리✌
 * [6. CSS Design Awards 사이트](https://www.cssdesignawards.com/)
 * [7. W3스쿨스 사이트](https://www.w3schools.com/)
   
-# 태그 
+# 태그  
 >web을 만들 때 가장 중요한 문법, 태그(tag)입니다.
 앞에 있는 태그를 **열리는 태그**, 뒤에 있는 태그를 **닫히는 태그**라고 합니다.
    
