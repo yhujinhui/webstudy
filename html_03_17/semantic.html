@@ -1,0 +1,46 @@
+
+<!--시각적인 변화는 없지만 문서상의 정보들을 각 용도에 맞게 체계적으로 정리하기 위해 사용되는 태그
+　문서를 의미론적으로 잘 정리하는 것이 검색엔진 최적화에 도움이 된다.-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML - 수업소개</title>
+<meta charset="utf-8">
+<style>
+  a{
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1><a href="semantic.html" title="HTML">HTML</a></h1>
+  </header>
+  <nav>
+    <ol>
+      <li><a href="1.html" title="기술소개">기술소개</a></li>
+      <li><a href="2.html" title="기본문법">기본문법</a></li>
+      <li><a href="3.html" title="하이퍼텍스트와 속성">하이퍼텍스트와 속성</a></li>
+      <li><a href="4.html" title="리스트와 태그의 중첩">리스트와 태그의 중첩</a></li>
+    </ol>
+  </nav>
+  <!--한 페이지에 여러 번 사용될 수 있는 시멘틱 태그(대표적으로 <article>태그)들을 묶어줄 때 사용
+　(<header>, <footer> 등과 같이 한 번만 사용되는 태그는 <section>태그로 묶어줄 필요가 없다.)-->
+  <section>
+    <article>
+      <h2>선행학습</h2>
+      본수업을 효과적으로 수행하기 위해서는 웹애플리케이션에 대한 전반적인 이해가 필요합니다.
+    </article>
+    <article>
+      <h2>선행학습</h2>
+      본수업을 효과적으로 수행하기 위해서는 웹애플리케이션에 대한 전반적인 이해가 필요합니다.
+    </article>
+  </section>
+<footer>
+  <ul>
+    <li><a href="privacy.html">개인보호정책</a></li>
+    <li><a href="about.html">회사소개</a></li>
+  </ul>
+</footer>
+</body>
+</html>
