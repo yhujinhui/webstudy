@@ -1,0 +1,78 @@
+<!DOCTYPE>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body{
+        display:flex;
+        align-items:center;/*위 아래 가운데*/
+        justify-content:center;/*왼쪽 오른쪽 가운데*/
+      }
+      .container{
+        display:flex;
+        flex-direction:column;
+        width:800px;
+        border : 1px solid gray;
+      }
+      header{
+        border-bottom : 1px solid gray;
+        text-align:center;
+      }
+      footer{
+        border-top:1px solid gray;
+        text-align : center;
+      }
+      .content{
+        display : flex;
+      }
+      .content nav{
+        border-right : 1px solid gray;
+      }
+      .content aside{
+        border-left:1px solid gray;
+      }
+      nav, aside{
+        flex-basis: 200px;
+        flex-shrink:0;
+      }
+      main{
+        padding : 10px;
+      }
+      nav{
+        order:0;/*배치 순서*/
+      }
+      main{
+        order:1;
+      }
+      aside{
+        order:2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>생활코딩</h1>
+      </header>
+      <section class="content">
+        <nav>
+          <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>java script</li>
+          </ul>
+        </nav>
+        <main>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </main>
+        <aside>
+          AD
+        </aside>
+      </section>
+      <footer>
+        <a href="http://opentutorials.org/course/1">홈페이지</a>
+      </footer>
+    </div>
+  </body>
+</html>

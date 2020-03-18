@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+      body{
+        padding-top:30px;
+      }
+      #parent,#other{
+        border:5px solid tomato;
+      }
+      #me{
+        background-color:black;
+        color:white;
+        position:fixed;/*scroll해도 자리에 고정됨*/
+        left:0;
+        top:0;
+        width:100%;
+        height:30px;
+        text-align:center;
+      }
+      #large{
+        height:10000px;
+        background-color:tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="other">
+      other
+    </div>
+      <div id="parent">
+        parent
+        <div id="me">
+          me
+        </div>
+      </div>
+      <div id="large">
+        large
+      </div>
+  </body>
+</html>
+<!--부모의 포지션을 static이 아닌 다른 포지션을 지정하면 그 포지션을 기준으로
+  위치가 정해진다-->

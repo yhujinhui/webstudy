@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .container{
+        background-color : powderblue;
+        display : flex;
+        height : 200px;
+        flex-direction : row;
+      }
+      .item{
+        background-color : tomato;
+        color : white;
+        border : 1px solid white;
+        flex-grow : 1;
+      }
+      .item:nth-child(1){
+        flex-basis:300px;
+        flex-shrink: 1;
+      }
+      .item:nth-child(2){
+        flex-basis:300px;
+        flex-shrink : 0;
+        /* flex-grow : 2; */
+        /* flex-basis:200px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+  </body>
+</html>
+<!--div : block level element <-> span-->
+<!--
+flex-basis : 지정한 크기만큼 늘어남
+flex-grow : item 개수/지정한 숫자 만큼 자리를 차지함
+flex-shrink :
+shrink를 사용할 떄 기본적으로 basis를 사용해야 함
+숫자의 크기를 줄일수록 웹페이지의 크기를 줄일 때 자리의 크기를 줄이는 양을 감소시킴-->

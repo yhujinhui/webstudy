@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      #parent,#other,#grand{
+        border:5px solid tomato;
+      }
+      #grand{
+        position:relative;
+      }
+      #me{
+        background-color:black;
+        color:white;
+        position:absolute;/*부모 태그의 포지션이 static일 때, html을 기준으로*/
+        left:0;
+        top:0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="other">
+      other
+    </div>
+    <div id="grand">
+      grand
+      <div id="parent">
+        parent
+        <div id="me">
+          me
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<!--부모의 포지션을 static이 아닌 다른 포지션을 지정하면 그 포지션을 기준으로
+  위치가 정해진다-->

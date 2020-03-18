@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      #parent{
+        /* border:1px solid tomato; */
+        margin-top:100px;
+      }
+      #child{
+        background-color:powderblue;
+        margin-top:50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <div id="child">
+          Hello World
+      </div>
+    </div>
+  </body>
+</html>
+<!--부모가 투명하고 부모의 marin값과 자식의 margin값을 서로 비교했을 때
+더 큰 쪽의 margin값을 사용하게 된다(margin 겹침)-->
