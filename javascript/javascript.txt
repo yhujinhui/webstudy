@@ -1,0 +1,13 @@
+>ex1.html
+
+자바스크립트 : 동적
+html : 정적
+script 문법을 사용할 때는 script 태그를 사용한다.
+
+>ex2.html
+이벤트 : onclick, onchange, onkeydown....
+alert : 경고창
+
+Html은 시간의 순서에 따라 실행되도록 하지 않는다.
+Javascript는 시간에 따라 실행되어야하기 때문에
+프로그래밍 언어이고, html과 엄연히 다르다.
