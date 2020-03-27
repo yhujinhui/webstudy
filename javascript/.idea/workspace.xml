@@ -17,6 +17,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -30,6 +36,9 @@
       <updated>1584791598350</updated>
       <workItem from="1584791601414" duration="1597000" />
       <workItem from="1584793334294" duration="28000" />
+      <workItem from="1584844228588" duration="4778000" />
+      <workItem from="1585035027193" duration="8223000" />
+      <workItem from="1585114865634" duration="7768000" />
     </task>
     <servers />
   </component>
@@ -51,7 +60,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lastword.js</url>
-          <line>13</line>
+          <line>31</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

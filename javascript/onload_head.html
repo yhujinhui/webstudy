@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="./onload.js"></script>
+	<script>
+		window.onload=function(){//onload => 코드를 다 읽은후에 window.onload를 실행
+			var hw = document.getElementById('hw');
+			hw.addEventListener('click',function(){
+				alert('Hello world');
+			})
+		}		
+	</script>
+</head>
+<body>
+	<input type="button" id="hw" value="Hello world">
+	<!-- 
+	./같은 폴더 안에 들어있는 파일
+	onload.js를 다운받아서 태그 사이에 코드를 집어넣음
+	 -->
+</body>
+</html>
