@@ -9,11 +9,13 @@ while($row=mysqli_fetch_array($result)){
   $list=$list."<li><a href=\"index.php?id={$row['id']}\">{$escaped_title}</a></li>";
 }
 
-$article=array(
-  'title'=>'Welcome',
-  'description'=>'Hello,web'
-  );
-
+$sql="select * from author";
+$result=mysqli_query($conn,$sql);
+$select_form='<select name="author_id">';
+while($row=mysqli_fetch_array($result)){
+$select_form.='<option value="'.$row['id'].'">'.$row['name'].'</option>';
+}
+$select_form.='</select>';
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -33,6 +35,7 @@ $article=array(
         <p>
           <textarea name="description" placeholder="description" rows="8" cols="80"></textarea>
         </p>
+        <?=$select_form?>
         <p>
           <input type="submit">
         </p>

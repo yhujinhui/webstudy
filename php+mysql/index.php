@@ -15,14 +15,16 @@ $article=array(
   );
 $update='';
 $delete='';
+$author='';
 if(isset($_GET['id'])){
 
   $filtered_id=mysqli_real_escape_string($conn,$_GET['id']);
-  $sql="select * from topic where id={$_GET['id']}";
+  $sql="select * from topic left join author on topic.author_id=author.id where topic.id={$filtered_id}";
   $result=mysqli_query($conn,$sql);
   $row=mysqli_fetch_array($result);
   $article['title']=htmlspecialchars($row['title']);
   $article['description']=htmlspecialchars($row['description']);
+  $article['name']=htmlspecialchars($row['name']);
   $update='<a href="update.php?id='.$_GET['id'].'">update</a>';
   $delete='
     <form action="delete_process.php" method="post">
@@ -30,6 +32,7 @@ if(isset($_GET['id'])){
       <input type="submit" value="delete">
     </form>
   ';
+  $author="<p>by {$article['name']}</p>";
 }
 
 ?>
@@ -41,9 +44,13 @@ if(isset($_GET['id'])){
   </head>
   <body>
     <h1><a href="index.php">WEB</a></h1>
+    <p>
+      <a href="author.php">author</a>
+    </p>
     <ol>
       <?=$list?>
     </ol>
+    
     <a href="create.php">create</a>
     <?=$update?>
     <?=$delete?>
@@ -51,5 +58,6 @@ if(isset($_GET['id'])){
     <p>
       <?=$article['description']?>
     </p>
+    <?=$author?>
   </body>
 </html>
